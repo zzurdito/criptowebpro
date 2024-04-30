@@ -1,0 +1,113 @@
+@media screen and (max-width: 1024px) {
+    #cwp-header {
+        justify-content: space-between;
+    }
+    #cwp-logo {
+        margin: 0;
+        width: 50px;
+        height: 50px;
+        content: "";
+    }
+    .botonMenu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+        width: 20px;
+        border: 0;
+        border-radius: 0;
+        cursor: pointer;
+    }
+    /* Se posiciona y se oculta con translate */
+    /* Estilos sencillos para decorar los links */
+    #cwp-nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    #cwp-header {
+        font-size: var(--font-size-3-phone);
+    }
+    #cwp-module-1 {
+        flex-direction: column;
+        padding-top: 50px 0;
+    }
+    #cwp-module-1-info {
+        justify-content: flex-start;
+        padding: 0;
+        margin: 0 10px;
+        text-align: center;
+    }
+    #cwp-module-1-info-title {
+        font-size: var(--font-size-1-phone);
+    }
+    #cwp-module-1-info-title {
+        font-size: var(--font-size-1-phone);
+    }
+    #cwp-module-1-info-text {
+        font-size: var(--font-size-2-phone);
+    }
+    #cwp-module-1-info-btn-registrate {
+        font-size: var(--font-size-3-phone);
+        justify-content: center;
+    }
+    #cwp-module-1-section-video {
+        flex-direction: row;
+        justify-content: center;
+    }
+    #cwp-module-1-video {
+        height: 60%;
+        justify-content: center;
+    }
+    .cwp-module-2-reason {
+        padding: 20px;
+    }
+    .cwp-module-2-reason-text {
+        font-size: var(--font-size-3-phone);
+    }
+    #cwp-module-3 {
+        margin-top: 50px;
+    }
+    #cwp-module-3-computer {
+        height: 100%;
+        margin-top: 0px;
+    }
+    #cwp-module-3-computer>a {
+        font-size: var(--font-size-2-phone);
+        background-repeat: no-repeat;
+        background-size: cover !important;
+    }
+    #cwp-module-3-computer-text {
+        width: 80%;
+        padding: 100px 0;
+    }
+    #cwp-module-4 {
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 50px;
+    }
+    #cwp-module-4-info {
+        flex-direction: column;
+    }
+    .cwp-module-4-info-text {
+        font-size: var(--font-size-2-phone);
+        line-height: normal;
+    }
+    .cwp-module-4-info-text-subtext {
+        font-size: var(--font-size-3-phone);
+    }
+    .cwp-module-footer-animation-form {
+        padding-top: 20px;
+    }
+    #cwp-module-footer-animation-form-box {
+        margin: 0 10px;
+    }
+    #cwp-module-footer-animation-form-box>input,
+    textarea {
+        font-size: var(--font-size-3-phone);
+    }
+    .cwp-module-footer-background-credits {
+        font-size: var(--font-size-3-phone);
+    }
+}
